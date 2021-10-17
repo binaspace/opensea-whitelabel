@@ -18,9 +18,9 @@
 }
 
 .App-main {
-  min-height: 100vh;
-  left: 0;
-  bottom: 0;
+  min-height: 500vh;
+  left: 500;
+  bottom: 500;
   right: 0;
 }
 
@@ -31,13 +31,13 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #fb6161;
 }
 
 .App-hero {
   width: 100vw;
   height: 30vmin;
-  min-height: 150px;
+  min-height: px;
   background-color: #1e7157;
   position: relative;
 
@@ -54,7 +54,7 @@
 
 .App-hero * {
   position: relative;
-  margin: 0;
+  margin: 10;
 }
 
 .App-hero small {

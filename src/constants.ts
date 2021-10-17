@@ -6,4 +6,4 @@ export enum EmbedTheme {
   Simple = "simple",
 }
 
-export const CHOSEN_THEME = EmbedTheme.Simple;
+export const CHOSEN_THEME = EmbedTheme;

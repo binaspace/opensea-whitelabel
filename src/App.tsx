@@ -9,9 +9,9 @@ import "./static/styles/App.css";
 const embeddedUrl = `${ASSET_URL}?embed=${CHOSEN_THEME}`;
 
 class App extends React.Component {
-     componentDidMount() {
-         iframeResizer({ log: false }, "#opensea-iframe");
-     }
+    // componentDidMount() {
+    //     iframeResizer({ log: false }, "#opensea-iframe");
+    // }
 
     render() {
         return (
@@ -29,8 +29,8 @@ class App extends React.Component {
                     className='h-100'
                     title='Embedded OpenSea Marketplace'
                     src={embeddedUrl}
-                    width='1000%'
-                    height='1000%'
+                    width='100%'
+                    height='100%'
                     frameBorder='0'
                     allowFullScreen
                 ></iframe>

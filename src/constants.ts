@@ -1,5 +1,5 @@
 export const ASSET_URL =
-  "https://opensea.io/assets/0x1301566b3cb584e550a02d09562041ddc4989b91/28";
+  "https://app.nftrade.com/users/bsc/0x83a0277d29092219188d7bc596418f11c6b62c9c";
 
 export enum EmbedTheme {
   Default = "true",

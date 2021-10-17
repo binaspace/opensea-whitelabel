@@ -9,9 +9,9 @@ import "./static/styles/App.css";
 const embeddedUrl = `${ASSET_URL}?embed=${CHOSEN_THEME}`;
 
 class App extends React.Component {
-     componentDidMount() {
-         iframeResizer({ log: false }, "#opensea-iframe");
-     }
+    // componentDidMount() {
+    //     iframeResizer({ log: false }, "#opensea-iframe");
+    // }
 
     render() {
         return (
